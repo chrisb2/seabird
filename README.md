@@ -1,1 +1,1 @@
-# seabird
+# Seabird Electronic Sculpture

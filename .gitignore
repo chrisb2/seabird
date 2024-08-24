@@ -1,1 +1,2 @@
-songs
+songs/*.mp3
+!songs/*-15s.mp3

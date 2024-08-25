@@ -17,4 +17,4 @@ A tribute to the amazing interactive sculptures of the [The Lost Gypsy](https://
 
 ## Programming
 
-Load the MP3 files to the JQ6500 as described in [https://sparks.gogo.co.nz/jq6500/index.html](https://sparks.gogo.co.nz/jq6500/index.html). Use [Thonny](https://thonny.org/) to load all the python files to the RP2040.
+Load the MP3 files to the JQ6500 as described in [https://sparks.gogo.co.nz/jq6500/index.html](https://sparks.gogo.co.nz/jq6500/index.html). Use [Thonny](https://thonny.org/) to load all the python files to the RP2040. The Micropython libraries [micropython-jq6500](https://github.com/rdagger/micropython-jq6500) and [micropython-hcsr04](https://github.com/rsc1975/micropython-hcsr04) are used.

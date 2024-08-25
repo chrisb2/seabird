@@ -8,7 +8,7 @@ A tribute to the amazing interactive sculptures of the [The Lost Gypsy](https://
 * Seeed Studio [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or other Micropython compatible MCU
 * JQ6500 MP3 Player
 * HC-SR04 ultrasonic sensor
-* Ultrathin speaker 8Ohms, 1W, 20mm diameter
+* Ultrathin speaker 8&#937;, 1W, 20mm diameter
 * 3mm LEDS, various colours
 
 ## Circuit

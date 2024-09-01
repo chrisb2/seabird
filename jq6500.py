@@ -1,5 +1,4 @@
 """Micropython serial library for JQ6500 mini MP3 module."""
-from machine import UART
 from time import sleep
 
 
@@ -39,7 +38,7 @@ class Player(object):
         """
         self.uart = uart
         self.uart.read()
-        # self.reset()
+        self.reset()
         self.set_volume(volume)
 
     def clean_up(self):
@@ -132,7 +131,7 @@ class Player(object):
         Args:
             level (int):  Volume level (Volume range 0-30).
         """
-        assert(0 <= level <= 30)
+        assert (0 <= level <= 30)
         self.write_bytes([0x06, level])
 
     def set_equalizer(self, mode):

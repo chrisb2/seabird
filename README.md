@@ -2,13 +2,16 @@
 
 A tribute to the amazing interactive sculptures of the [The Lost Gypsy](https://thelostgypsy.com/) in  [Papatowai, New Zealand](https://www.google.com/maps/place/?q=place_id:ChIJwapUtKWmLagRdHW5ZbnSops).
 
+
+![Sea bird picture](./sea-bird.jpg)
+
 ## Parts
 
 * Paua shell
 * Seeed Studio [XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or other Micropython compatible MCU
 * JQ6500 MP3 Player
 * HC-SR04 ultrasonic sensor
-* Ultrathin speaker 8&#937;, 1W, 20mm diameter
+* Ultrathin speaker 8&#937;, 2W, 20mm diameter
 * 3mm LEDS, various colours
 
 ## Circuit

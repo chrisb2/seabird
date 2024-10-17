@@ -5,6 +5,7 @@ from hcsr04 import HCSR04
 from neopixel import Neopixel
 import asyncio
 import random
+import time
 
 PLAY_DIST_CM = 100
 PLAY_TIME_S = 15  # Length of sound tracks
@@ -85,6 +86,7 @@ async def main():
 
 
 def run():
+    time.sleep(0.5)
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
